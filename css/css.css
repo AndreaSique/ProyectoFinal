@@ -33,6 +33,8 @@ header {
 .logo {
     width: 40em;
     height: 10em;
+    background-image: url(../img/marcaPersonal.JPG);
+    background-size: cover;
     background-position: center;
     display: inline-block;
     margin-top: 5em;
@@ -71,7 +73,30 @@ header {
 .img {
     width: 100%;
     height: 20em;
-    background-color: gray;
+    background-image: url(../img/AdamSandler.jpg);
+    background-size: cover;
+    background-position: center; 
+    border-radius: 0.5em;
+}
+.img2 {
+    width: 100%;
+    height: 20em;
+    background-image: url(../img/laRoca.jpg);
+    background-size: cover;
+    border-radius: 0.5em;
+}
+.img3 {
+    width: 100%;
+    height: 20em;
+    background-image: url(../img/Will-Smith.jpg);
+    background-size: cover;
+    border-radius: 0.5em;
+}
+.img4 {
+    width: 100%;
+    height: 20em;
+    background-image: url(../img/RobertDowney.jpg);
+    background-size: cover;
     border-radius: 0.5em;
 }
 
@@ -87,11 +112,11 @@ header {
     width: 95%;
     height: auto;
     margin: auto;
-    margin-top: 3.2em; 
+    margin-top: 2em; 
 }
 .texto{
     font-size: 1.7em;
-    text-align: center;
+    text-align: justify;
 }
 .subtitulo{
     font-size: 3.3em;
@@ -124,9 +149,9 @@ header {
 ----------------------*/
 
 @media only screen and (max-width: 768px) {
-    body {
+      body {
         font-size: 7px;
-        padding-left: 5%;
+        padding-left: 6.2%;
         padding-right: 5%;
     }
     .boyGeneral {
@@ -136,20 +161,14 @@ header {
     .logo {
         width: 25%;
         height: 10em;
-        background-position: center;
         display: inline-block;
         margin-top: 5em;
     }
     .cajaMenu {
-        width: 115em;
+        width: 70%;
         height: 10em;
         display: inline-block;
         margin-top: 5em;
-        border-bottom-style: ridge;
-    }
-    .texto{
-        font-size: 2em;
-        text-align: center;
     }
     .section {
         display: block;
@@ -158,34 +177,37 @@ header {
         float: left;
         width: 40em;
         height: 60em;
-        margin: 0em 4em 14em 4em;
+        margin: 0em 4em 20em 4em;
+    }
+    .texto{
+        font-size: 2.2em;
+        text-align: justify;
     }
 }
 
 
 /*----------------------
-# Sección de resoluciones IPAD
+# Sección de resoluciones TELEFONO
 ----------------------*/
 
 @media only screen and (max-width:767px) {
     body {
         font-size: 7px;
-        padding-left: 5%;
-        padding-right: 5%;
+        
     }
     .boyGeneral {
         width: 100%;
         margin: auto;
     }
     .logo {
-        width: 25%;
+        width: 40%;
         height: 10em;
         display: inline-block;
         margin-top: 5em;
     }
    .cajaMenu {
-        width: 70%;
-        height: 10em;
+        width: 55%;
+        height: 8em;
         display: inline-block;
         margin-top: 5em;
         border-bottom-style: ridge;
@@ -200,7 +222,19 @@ header {
         margin: auto;
         width: 90%;
         height: 60em;
-        margin-top: 5em;
+        margin-top: 3em;
         margin-bottom: 10em;
     }
+    .texto{
+        font-size: 2em;
+        text-align: justify;
+    }
+    .titulo1{
+        font-size: 2.5em;
+        text-align: center;
+        padding: 1em 0em 1em 0em;
+        
+       
+    }
+
 }
